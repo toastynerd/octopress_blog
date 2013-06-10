@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: RoR | My Octopress Blog]]></title>
-  <link href="http://yoursite.com/blog/categories/ror/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-06-10T11:09:57-07:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[Category: RoR | Tyler Morgan's Web Dev Musings]]></title>
+  <link href="http://tylerhmorgan.com/blog/categories/ror/atom.xml" rel="self"/>
+  <link href="http://tylerhmorgan.com/"/>
+  <updated>2013-06-10T11:38:16-07:00</updated>
+  <id>http://tylerhmorgan.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Tyler Morgan(Toasty Nerd)]]></name>
+    <email><![CDATA[tylermorgan86@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[MongoDB and Rails]]></title>
-    <link href="http://yoursite.com/blog/2013/06/10/mongodb-and-rails/"/>
+    <link href="http://tylerhmorgan.com/blog/2013/06/10/mongodb-and-rails/"/>
     <updated>2013-06-10T11:06:00-07:00</updated>
-    <id>http://yoursite.com/blog/2013/06/10/mongodb-and-rails</id>
+    <id>http://tylerhmorgan.com/blog/2013/06/10/mongodb-and-rails</id>
     <content type="html"><![CDATA[<p>Today we&rsquo;re trying to use a trendy database(MongoDB) with a trendy framework(Ruby on Rails) and we seemed to have left our skinny jeans at home. Cheap shots at hipsters aside. let&rsquo;s talk about how we can put these two together and why we should care and maybe your humble author will stop using the &ldquo;royal we&rdquo; as we take this journey. Damn, I did it again, didn&rsquo;t I?</p>
 
 <p>I&rsquo;m going to assume that you are somewhat familiar with Ruby on Rails. By that, I mean, you know how to get an application up and running. You&rsquo;re familiar with MVC architecture and how the basic parts of Rails fit together. I also assume that you have some reason to be interested in MongoDB but aren&rsquo;t really sure how it fits into Rails or why you would want it to fit into Rails.</p>
