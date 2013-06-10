@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://tylerhmorgan.com
+title: Tyler Morgan's Web Dev Musings
+subtitle: Tyler Morgan's blog about writing code, primarily web development.
+author: Tyler Morgan(Toasty Nerd)
 simple_search: http://google.com/search
 description:
 
@@ -19,8 +19,8 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
-
+email: tylermorgan86@gmail.com
+  
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
