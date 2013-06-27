@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: text | Tyler Morgan's Web Dev Musings]]></title>
+  <link href="http://tylerhmorgan.com/blog/categories/text/atom.xml" rel="self"/>
+  <link href="http://tylerhmorgan.com/"/>
+  <updated>2013-06-27T13:47:34-07:00</updated>
+  <id>http://tylerhmorgan.com/</id>
+  <author>
+    <name><![CDATA[Tyler Morgan(Toasty Nerd)]]></name>
+    <email><![CDATA[toasty@filesynergy.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started with Vim]]></title>
+    <link href="http://tylerhmorgan.com/blog/2013/06/27/getting-started-with-vim/"/>
+    <updated>2013-06-27T13:26:00-07:00</updated>
+    <id>http://tylerhmorgan.com/blog/2013/06/27/getting-started-with-vim</id>
+    <content type="html"><![CDATA[<p>Let me preface this post by saying I have frequently gone back and forth
+between vim and Sublime-Text-2. I have also experimented with other
+editors such as Text-Mate and Emacs but vim keeps drawing me back. There
+are three main reasons why I love vim so much.</p>
+
+<p>First, it&rsquo;s fast, mindblowingly fast. Not just the actual program but
+the speed of editing as well.</p>
+
+<p>Second, it&rsquo;s open source. This one is more of a personal thing. I love
+open source projects and while Sublime and TM are both great editors,
+they&rsquo;re not open source.</p>
+
+<p>Third, it has a ton of modules and extentions. Vim has been around for
+over 20 years and in those 20 years developers who love to develop in
+vim have made it better and better. Almost any functionality you could
+possibly want from vim you can find someone who&rsquo;s already written a
+plugin for it.</p>
+
+<p>Getting started:</p>
+
+<p>The first time I opened up vim I had no idea how to write any text and
+it took me five minutes to quit the program. I had no idea how to use it
+and thought I could learn it like many other pieces of software, just
+diving in. Vim is less complicated that it seems at first but it still
+acts like no other text editor you&rsquo;ve used before. The most simple and
+painless way to get a handle on the basiscs is to run
+<code>vimtutor</code>
+from the command line. This will go through basic commands and
+navigation. Once you learn how to navigate vim with the keyboard you&rsquo;ll
+never touch your mouse again. Mice are a slow way to interact with your
+computer. Even with a high sensitivity it requires a lot of movement to
+accomplish the same thing as a few keystrokes.</p>
+
+<p>Now, if this entire blog post just said &ldquo;go run vimtutor, the end.&rdquo; That
+would be a pretty useless blogpost. So, here&rsquo;s where I get into my
+advice on how to actually learn vim: start small. After you run through
+the vim tutor, try using Sublime-Text in &ldquo;vintage mode.&rdquo; Instructions
+for setting that up can be found <a
+href="http://www.sublimetext.com/docs/2/vintage.html">here</a> It&rsquo;s a
+great way to get started using vim-like commands while still having
+access to more traditional text-editor features. After you get sublime
+running vintage start picking a single key or set of keys to learn each
+week or each day or some other arbitrary amount of time. For isntance
+your first day, don&rsquo;t use the mouse to navigate your text. Use the
+&ldquo;hjkl&rdquo; keys instead. Once you&rsquo;re compfortable with that, start using the
+&ldquo;{}&rdquo; keys to nivigate. Just keep added new keys to your bank of muscle
+memory.</p>
+]]></content>
+  </entry>
+  
+</feed>
