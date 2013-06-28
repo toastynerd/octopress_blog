@@ -4,7 +4,7 @@
   <title><![CDATA[Tyler Morgan's Web Dev Musings]]></title>
   <link href="http://tylerhmorgan.com/atom.xml" rel="self"/>
   <link href="http://tylerhmorgan.com/"/>
-  <updated>2013-06-27T13:47:34-07:00</updated>
+  <updated>2013-06-28T10:07:25-07:00</updated>
   <id>http://tylerhmorgan.com/</id>
   <author>
     <name><![CDATA[Tyler Morgan(Toasty Nerd)]]></name>
@@ -63,8 +63,23 @@ running vintage start picking a single key or set of keys to learn each
 week or each day or some other arbitrary amount of time. For isntance
 your first day, don&rsquo;t use the mouse to navigate your text. Use the
 &ldquo;hjkl&rdquo; keys instead. Once you&rsquo;re compfortable with that, start using the
-&ldquo;{}&rdquo; keys to nivigate. Just keep added new keys to your bank of muscle
-memory.</p>
+&ldquo;{}&rdquo; keys to navigate. Just keep adding new keys to your bank of muscle
+memory. If you do somethign in sublime frequently using ctrl shortcuts,
+see if there&rsquo;s a way to do it using vim shortcuts. Every time you use
+your mouse, look up a way to do that same action from the keyboard.</p>
+
+<p>Once you get comfortable in vintage mode, start using the command line
+vim to edit single documents. This is a lot simpler than trying to edit
+a structured app like a Rails app. After you get used to that, learn
+some new commands and get comfortable, try some third party software. If
+you&rsquo;re a rails developer I highly reccomend <a
+href="https://github.com/carlhuda/janus">Janus</a> it has almost every
+additinal plugin you could want and makes it easy to install the ones
+that it doesn&rsquo;t include.</p>
+
+<p>Long story short, start small with vim. It&rsquo;s a very complex text-editor
+that you could spend years learning to master but as you learn, you&rsquo;ll
+find your coding workflow getting faster and faster.</p>
 ]]></content>
   </entry>
   
