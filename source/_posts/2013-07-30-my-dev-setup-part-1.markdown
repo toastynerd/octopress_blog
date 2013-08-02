@@ -14,3 +14,8 @@ liking. A development machine is something very personal and I don't
 expect everyone to have the same taste as I do. It is something that
 comes from experimentation, imitation and to some extent, experience.
 That being said, here's what currently works for me.
+
+This post is primarily going to be about hardware and my OS. So
+if you're not into that, you might want to stop reading now.
+
+My current machine is a 2009 MacBook Pro.
