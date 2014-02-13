@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://tylerhmorgan.com
-title: Tyler Morgan's Web Dev Musings
-subtitle: Tyler Morgan's blog about writing code, primarily web development.
-author: Tyler Morgan(Toasty Nerd)
+title: Toasty Code
+subtitle: Fresh toasted code, ready for buter and jam.
+author: Tyler Morgan(toasty_nerd)
 simple_search: http://google.com/search
-description:
+description: This is my blog, there are many like it but this one is mine...
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

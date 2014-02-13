@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Welcome"
+date: 2014-02-12 18:48
+comments: true
+categories: 
+---
+This is another attempt to start a blog about my personal take on web development. I can't count how many blogs 
+I've started before this but they always seem to pitter out before they really get going. I can't promise that
+I will continue to update this blog from now until the end of time but I can say that I'll try to keep it
+going for at least a few weeks. I already have some ideas for posts that mostly revolve around Ruby and
+Ruby on Rails but before I get into that it's probably time for me to introduce myself.
+
+My name is Tyler Morgan, I go by toasty, toastynerd or toastycrack on different corners of the internet
+as befitting my needs. I have been tinkering with computers and technology since I was in middle school, 
+it included a little bit of code but nothing beyond simple games and shells scipts. I just recently decided to try
+to make a living out of writing code. My chosen platform--or the platform that was chosen for me--is Ruby
+and Ruby on Rails and most of this blog will reflect that.
+
+I currently am a developer at an early stage startup. It's early enough that I can't give too many details 
+but it's called Makindo and focuses on social media and data analytics. Most of my blog posts are going to
+come directly from issues I've had to tackle while working for Makindo. Much of the information is going
+be available elsewhere on the internet. I'll try to link to pages and posts that I've found especially
+useful and maybe I'll throw in an affiliate link to Amazon if I really like a book. Hopefully, it won't be 
+too obtrusive. That's the plan but as they say, details fucking suck. Oh yeah, heads up, I like to curse.
+
+-Toasty

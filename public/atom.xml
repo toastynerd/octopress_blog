@@ -1,157 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tyler Morgan's Web Dev Musings]]></title>
+  <title><![CDATA[Toasty Code]]></title>
   <link href="http://tylerhmorgan.com/atom.xml" rel="self"/>
   <link href="http://tylerhmorgan.com/"/>
-  <updated>2013-07-01T09:52:46-07:00</updated>
+  <updated>2014-02-12T19:10:43-08:00</updated>
   <id>http://tylerhmorgan.com/</id>
   <author>
-    <name><![CDATA[Tyler Morgan(Toasty Nerd)]]></name>
+    <name><![CDATA[Tyler Morgan(toasty_nerd)]]></name>
     <email><![CDATA[toasty@filesynergy.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Getting Started with Vim]]></title>
-    <link href="http://tylerhmorgan.com/blog/2013/06/27/getting-started-with-vim/"/>
-    <updated>2013-06-27T13:26:00-07:00</updated>
-    <id>http://tylerhmorgan.com/blog/2013/06/27/getting-started-with-vim</id>
-    <content type="html"><![CDATA[<p>Let me preface this post by saying I have frequently gone back and forth
-between vim and Sublime-Text-2. I have also experimented with other
-editors such as Text-Mate and Emacs but vim keeps drawing me back. There
-are three main reasons why I love vim so much.</p>
+    <title type="html"><![CDATA[Welcome]]></title>
+    <link href="http://tylerhmorgan.com/blog/2014/02/12/welcome/"/>
+    <updated>2014-02-12T18:48:00-08:00</updated>
+    <id>http://tylerhmorgan.com/blog/2014/02/12/welcome</id>
+    <content type="html"><![CDATA[<p>This is another attempt to start a blog about my personal take on web development. I can&rsquo;t count how many blogs
+I&rsquo;ve started before this but they always seem to pitter out before they really get going. I can&rsquo;t promise that
+I will continue to update this blog from now until the end of time but I can say that I&rsquo;ll try to keep it
+going for at least a few weeks. I already have some ideas for posts that mostly revolve around Ruby and
+Ruby on Rails but before I get into that it&rsquo;s probably time for me to introduce myself.</p>
 
-<p>First, it&rsquo;s fast, mindblowingly fast. Not just the actual program but
-the speed of editing as well.</p>
+<p>My name is Tyler Morgan, I go by toasty, toastynerd or toastycrack on different corners of the internet
+as befitting my needs. I have been tinkering with computers and technology since I was in middle school,
+it included a little bit of code but nothing beyond simple games and shells scipts. I just recently decided to try
+to make a living out of writing code. My chosen platform&mdash;or the platform that was chosen for me&mdash;is Ruby
+and Ruby on Rails and most of this blog will reflect that.</p>
 
-<p>Second, it&rsquo;s open source. This one is more of a personal thing. I love
-open source projects and while Sublime and TM are both great editors,
-they&rsquo;re not open source.</p>
+<p>I currently am a developer at an early stage startup. It&rsquo;s early enough that I can&rsquo;t give too many details
+but it&rsquo;s called Makindo and focuses on social media and data analytics. Most of my blog posts are going to
+come directly from issues I&rsquo;ve had to tackle while working for Makindo. Much of the information is going
+be available elsewhere on the internet. I&rsquo;ll try to link to pages and posts that I&rsquo;ve found especially
+useful and maybe I&rsquo;ll throw in an affiliate link to Amazon if I really like a book. Hopefully, it won&rsquo;t be
+too obtrusive. That&rsquo;s the plan but as they say, details fucking suck. Oh yeah, heads up, I like to curse.</p>
 
-<p>Third, it has a ton of modules and extentions. Vim has been around for
-over 20 years and in those 20 years developers who love to develop in
-vim have made it better and better. Almost any functionality you could
-possibly want from vim, already has a pluggin written for it.</p>
-
-<p>Getting started:</p>
-
-<p>The first time I opened up vim I had no idea how to write any text and
-it took me five minutes to quit the program. I thought I could learn it
- like many other pieces of software, just diving in.
-Vim is less complicated that it seems at first but it still
-acts like no other text editor you&rsquo;ve used before. The most simple and
-painless way to get a handle on the basiscs is to run
-<code>vimtutor</code>
-from the command line. This will go through basic commands and
-navigation. Once you learn how to navigate vim with the keyboard you&rsquo;ll
-never touch your mouse again. Mice are a slow way to interact with your
-computer. Even with a high sensitivity it requires a lot of movement to
-accomplish the same thing as a few keystrokes.</p>
-
-<p>Now, if this entire blog post just said &ldquo;go run vimtutor, the end.&rdquo; That
-would be a pretty useless blogpost. So, here&rsquo;s where I get into my
-advice on how to actually learn vim: start small. After you run through
-the vim tutor, try using Sublime-Text in &ldquo;vintage mode.&rdquo; Instructions
-for setting that up can be found <a
-href="http://www.sublimetext.com/docs/2/vintage.html">here</a> It&rsquo;s a
-great way to get started using vim-like commands while still having
-access to more traditional text-editor features. After you get sublime
-running vintage start picking a single key or set of keys to learn each
-week or each day or some other arbitrary amount of time. For instance
-your first day, don&rsquo;t use the mouse to navigate your text. Use the
-&ldquo;hjkl&rdquo; keys instead. Once you&rsquo;re comfortable with that, start using the
-&ldquo;{}&rdquo; keys to navigate. Just keep adding new keys to your bank of muscle
-memory. If you do something in sublime frequently using ctrl shortcuts,
-see if there&rsquo;s a way to do it using vim shortcuts. Every time you use
-your mouse, look up a way to do that same action from the keyboard.</p>
-
-<p>Once you get comfortable in vintage mode, start using the command line
-vim to edit single documents. This is a lot simpler than trying to edit
-a structured app like a Rails app. After you get used to that, learn
-some new commands and get comfortable, try some third party software. If
-you&rsquo;re a rails developer I highly reccomend <a
-href="https://github.com/carlhuda/janus">Janus</a> it has almost every
-additinal plugin you could want and makes it easy to install the ones
-that it doesn&rsquo;t include.</p>
-
-<p>Long story short, start small with vim. It&rsquo;s a very complex text-editor
-that you could spend years learning to master but as you learn, you&rsquo;ll
-find your coding workflow getting faster and faster.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MongoDB and Rails]]></title>
-    <link href="http://tylerhmorgan.com/blog/2013/06/10/mongodb-and-rails/"/>
-    <updated>2013-06-10T11:06:00-07:00</updated>
-    <id>http://tylerhmorgan.com/blog/2013/06/10/mongodb-and-rails</id>
-    <content type="html"><![CDATA[<p>Today we&rsquo;re trying to use a trendy database(MongoDB) with a trendy framework(Ruby on Rails) and we seemed to have left our skinny jeans at home. Cheap shots at hipsters aside. let&rsquo;s talk about how we can put these two together and why we should care and maybe your humble author will stop using the &ldquo;royal we&rdquo; as we take this journey. Damn, I did it again, didn&rsquo;t I?</p>
-
-<p>I&rsquo;m going to assume that you are somewhat familiar with Ruby on Rails. By that, I mean, you know how to get an application up and running. You&rsquo;re familiar with MVC architecture and how the basic parts of Rails fit together. I also assume that you have some reason to be interested in MongoDB but aren&rsquo;t really sure how it fits into Rails or why you would want it to fit into Rails.</p>
-
-<p>MongoDB, you&rsquo;ve heard about it, you know it&rsquo;s beginning to get popular, but wtf is it? MongoDB is one of many up and coming nonrelational or noSQL databases. MongoDB differs from a traditional SQL database in two major ways. First, it&rsquo;s slightly faster and second, it provides a much more flexible way to store and retrieve your data.</p>
-
-<p>These two benefits both stem from the way in which MongoDB stores data. MongoDB stores all its data in the form of BSON documents, which are like JSON documents but faster and bigger. They consist of key-value pairs and those values can be anything from an integer, to a string, to an object, to another BSON document. SQL stores it&rsquo;s data in tables that are consistent, organized and capable of being rolled back, or reverted to a previous state. When you insert a new piece of data into a MongoDB database it throws it wherever it can find room and indexes it if you have an index, when you perform an insert on an SQL database you have to, at the very least, find the end of the current data and append the new data onto it. Or find a spot for it in the current data set. The difference in speed is only dramatic when manipulating documents that number in the 1000 plus range, which is one of the reasons that MongoDB falls under the category of &ldquo;Big Data&rdquo;. If you want more information about MongoDB I would suggest checking out their site <a href="http://mongodb.org">here</a> or taking one of their free online classes <a href="&quot;http://education/10gen.com">here</a>.</p>
-
-<p>So why would you want to to use it with Rails besides the performance increase? Well, one bonus, it gets rid of the need for migrations. That&rsquo;s right, never again will you spend hours slamming your head against a wall trying to figure out why your tests aren&rsquo;t passing only to find out you never ran rake db:migrate &amp;&amp; rake db:test:prepare. The flexible way in which Mongo stores data means that new schemas are created on the fly(MongoDB itself is schema-less but Rails creates a schema for you). A downside to this is that your old data won&rsquo;t contain your new schema so you can&rsquo;t just assume that it will be there. The other upside is really only relevant in a production piece of software, Mongo database administration feels a lot more writing code than dba. All commands for Mongo can be administered through javascript so it&rsquo;s easier for someone who comes from a development background to get some dba taken care of. I guess this is more of a preference thing than an actual, tangible benefit but hey, it&rsquo;s my preference so you get to hear about it. Enough of the why, let&rsquo;s get to the how.</p>
-
-<p>First, you&rsquo;ll need to install MongoDB. I&rsquo;m not going to give instructions on how to install the Mongo server on every platform but you can find the install docs <a href="http://docs.mongodb.org/manual/installation/">here.</a> Just a quick security tip, if you&rsquo;re running the Mongo server on your dev machine and don&rsquo;t intend to use it elsewhere, add the following line to your mongo config file.</p>
-
-<pre>bind 127.0.0.1</pre>
-
-
-<p>This will ensure that your mongo server is only accessible through your machine, so the next time you&rsquo;re working from a coffee shop you don&rsquo;t have to worry about someone pushing 100 gigs of data to your mongo server. To ensure your server is up and running just run the command &ldquo;mongo&rdquo; if you get a prompt, you&rsquo;re good to go.</p>
-
-<p>Next, you need to create a new rails app. MongoDB doesn&rsquo;t use active record as active record is based on SQL databases, so make sure to create your new rails app as follows:</p>
-
-<pre>rails new  --skip-active-record</pre>
-
-
-<p>This will get rid of most of the active record that a new Rails application contains. Make sure to go into config/application.rb and remove or comment out all the lines that being with config.active_record, there will probably be two or three.</p>
-
-<p>Next up is getting the right gem to interact with mongo through rails. In my research, I&rsquo;ve only found two viable candidates, <a href="http://mongomapper.com/">mongo_mapper</a> and <a href="http://mongoid.org/en/mongoid/index.html">mongoid</a>. They both have great documentation, work well with rails and do a decent job of replicating the same functionality as active record but I like Mongoid better because it requires little to no additional configuration to work with rspec and devise. Just add</p>
-
-<pre>gem 'mongoid', '~&gt;3.0.0'</pre>
-
-
-<p>Then run bundle install. Next, you&rsquo;ll need to create a configuration file for the MongoDB database.</p>
-
-<pre>rails generate mongoid:config</pre>
-
-
-<p>This will create the mongoid version of database.yml, config/mongoid.yml. If you&rsquo;re running the mogno database off of your development machine the default configuration should work but this is the file to edit when that changes.</p>
-
-<p>Now mongoid is set up and ready to go. You can start generating models with the same commands you normally would but if you&rsquo;re trying to create them from scratch, or if you&rsquo;re like me and you frequently have typos in your generate commands you&rsquo;ll notice some differences in you model files.</p>
-
-<pre>class MyModel
-  include Mongoid::Document
-  field :name, type: string
-
-  validates_presence_of :name
-end</pre>
-
-
-<p>The first noticeable difference, and one you probably could have predicted is that the model class doesn&rsquo;t inherit from active record. Instead, you include Mongoid::Document within the model class.</p>
-
-<p>The contents of the model itself are also different. Instead of the usual syntax which corresponds to SQL table columns we have what translates into key/value pairs. On the third line we have field :name, type: string. The field :name corresponds to a key of &ldquo;name&rdquo; and value that will be of type string. You can read about all the different variable types included with Mongoid in their documentation but it does include all of the types included with active record. You can also embed other models within models but that is a little beyond the scope of this blog post. The other thing to notice is that the validation syntax is slightly different, once again, you can read all about the different validation types in the Mongoid documentation but they&rsquo;re essentially the same.</p>
-
-<p>Now that we&rsquo;ve taken a look at the models lets take a look at something equally important, testing with rspec. You can install rspec in the same manner, put the gem in your gemfile then bundle install and rails g rspec:install. But it requires a little bit more configuration afterwards. First off, there are a few lines you have to change in spec_helper.rb, read through the comments in that file and comment out the the lines that rspec tells you to comment out if you&rsquo;re not using active record. These should be the two lines that mention fixture and transitional_fixtures.</p>
-
-<p>Next there are a few lines you will want to add in your spec_helper in order to keep from getting weird errors due to duplicate data, add the following to the end of your spec_helper file.</p>
-
-<pre>Mongoid.purge!
-Mongoid::IdentityMap.clear</pre>
-
-
-<p>These two lines will clear out your test database before running your tests. Normally when you run rspec tests it rolls back the database before running the tests but MongoDB doesn&rsquo;t support rollbacks. Without these two lines, every test you run will fill your database with unwanted entries.</p>
-
-<p>That&rsquo;s essentially it, from here you can develop your rails app as if nothing were different, and when you want more control over your data or want to embed a document within a document you have that ability. Quick side note, if you&rsquo;re using devise, make sure you use rails generate mongoid:devise user instead of rails generate devise user. Have fun experimenting with mongo and rails!</p>
-
-<p>-Tyler Morgan</p>
-
-<p>@toastynerd</p>
+<p>-Toasty</p>
 ]]></content>
   </entry>
   
